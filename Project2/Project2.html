@@ -29,11 +29,8 @@
                 </ul>
 
                 <form class="d-flex" role="search">
-                    <input class="form-control mx-2" id="searchTxt" type="search" placeholder="Search"
-                        aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">
-                        Search
-                    </button>
+                    <input class="form-control mx-2" id="searchTxt" type="search" placeholder="Search Book name"
+                        aria-label="Search" onkeyup="searchFunction()" />
                 </form>
             </div>
         </div>
@@ -96,7 +93,7 @@
                         <th scope="col"> </th>
                     </tr>
                 </thead>
-                <tbody id="tableBody"></tbody>   
+                <tbody id="tableBody" class="tableClass"></tbody>   
             </table>
         </div>
     </div>
