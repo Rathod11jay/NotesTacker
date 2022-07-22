@@ -82,7 +82,6 @@ function libraryFormSubmit(e) {
   } else {
     display.show("Error", "Sorry You Cannot Add This Book!");
   }
-
   e.preventDefault();
 
   // To Add Details to LocalStorage
